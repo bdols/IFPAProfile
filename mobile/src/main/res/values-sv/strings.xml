@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2015, Brian Dols <brian.dols@gmail.com>
+  ~
+  ~ Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+  -->
+
+<resources>
+    <string name="app_name">Åtkomst IFPA</string>
+    <string name="calendar_menu_title">Kalender</string>
+    <string name="calendar_to_label">till</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="history_pager_title">Rangordning Historia</string>
+    <string name="search_hint">Efternamn</string>
+    <string name="search_menu_title">Sök</string>
+    <string name="stats_as_of">i</string>
+    <string name="stats_current_wppr_value_label">WPPR Ratingpoäng</string>
+    <string name="stats_current_rank_label">Rang</string>
+    <string name="stats_efficiency_rank_label">Effektivitet Rang</string>
+    <string name="stats_efficiency_value_label">Effektivitetspoäng</string>
+    <string name="stats_highest_rank_label">Högsta Rang</string>
+    <string name="stats_last_month_label">Förra Månadens Rang</string>
+    <string name="stats_pager_title">Statistik</string>
+    <string name="stats_rank_last_year_label">Förra årets Ranking</string>
+    <string name="stats_ratings_rank_label">Rating Rang</string>
+    <string name="stats_ratings_value_label">Rating Värde</string>
+    <string name="stats_total_active_events_label">Totala Aktiva Tavling</string>
+    <string name="stats_total_events_all_time_label">Totala Tavling i Särklass</string>
+    <string name="player_registered_designholder">Rekommenderat</string>
+    <string name="search_label">Åtkomst IFPA</string>
+    <string name="player_rank_designholder">Rang</string>
+    <string name="championship_series_label">Mästerskapsserie</string>
+    <string name="championship_rank_label">Rang: </string>
+    <string name="no_eligible_events">Inga stödberättigade händelser registreras för detta år.</string>
+    <string name="units_from_you">"kilometers"</string>
+    <string name="show_events_setting">Visa endast evenemang</string>
+    <string name="events_calendar_category">Evenemangskalender</string>
+    <string name="results_pager_title">Turneringsresultat</string>
+    <string name="loading_tournament_results">Laddar turneringsresultat för spelare…</string>
+    <string name="loading_calendar_search_text">Laddar IFPA flipperhändelser i ditt område…</string>
+    <string name="searching_players">Söka efter spelare</string>
+    <string name="server_error">Serverfel</string>
+    <string name="tournament_active">Aktiv</string>
+    <string name="tournament_inactive">Händelsenamn </string>
+    <string name="tournament_original_points_label">Ursprunglig Pris</string>
+    <string name="tournament_points_label">Poäng</string>
+    <string name="sort_by_active_recent">Sortera Efter Aktiva Och Nyligen</string>
+    <string name="sort_by_active_points">Sortera Efter Aktiva Och Poäng</string>
+    <string name="sort_by_alphabetical">Sortera I Alfabetisk</string>
+    <string name="sort_by_current_points">Sortera Efter Nuvarande Poäng</string>
+    <string name="sort_by_historical_order">I Historisk Ordning</string>
+    <string name="sort_by_most_recent">Sortera Efter Senaste</string>
+    <string name="sort_by_original_points">Sortera Efter Original Poäng</string>
+    <string name="manual_override">Ange din stad manuellt</string>
+    <string name="override_location_request">Åsido Plats Begäran</string>
+    <string name="last_location_request">Senaste Plats Begäran</string>
+    <string name="find_with_location_services">Hitta din position med enhetens GPS eller nätverk</string>
+    <string name="city_hint">Stad</string>
+</resources>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2015, Brian Dols <brian.dols@gmail.com>
+  ~
+  ~ Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+  -->
+
+<RelativeLayout
+    android:id="@+id/stats_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".MainActivity$StatsFragment">
+
+    <TextView
+        android:id="@+id/stats_current_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/stats_last_month_value"
+        android:layout_alignStart="@+id/stats_last_month_value"
+        android:layout_alignTop="@+id/stats_current_rank_label"
+        android:padding="10dp"
+        android:text="@string/empty_stat_designholder"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/stats_last_month_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/stats_last_month_label"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:text="@string/empty_stat_designholder"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/stats_rank_last_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/stats_last_month_value"
+        android:layout_alignStart="@+id/stats_last_month_value"
+        android:layout_alignTop="@+id/stats_rank_last_year_label"
+        android:padding="10dp"
+        android:text="@string/empty_stat_designholder"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/stats_highest_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/stats_rank_last_year"
+        android:layout_alignStart="@+id/stats_rank_last_year"
+
+        android:layout_alignTop="@+id/stats_highest_rank_label"
+        android:padding="10dp"
+        android:text="@string/empty_stat_designholder"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/stats_highest_rank_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/stats_total_active_events_label"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+
+        android:layout_toEndOf="@+id/stats_highest_rank_date_label"
+        android:layout_toRightOf="@+id/stats_highest_rank_date_label"
+        android:padding="10dp"
+        android:text="@string/empty_date_designholder"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/stats_total_events_all_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/stats_total_events_all_time_label"
+        android:padding="10dp"
+        android:text="@string/empty_stat_designholder"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/stats_total_active_events"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/stats_total_active_events_label"
+        android:layout_alignStart="@+id/stats_total_active_events_label"
+        android:layout_below="@+id/stats_total_active_events_label"
+        android:padding="10dp"
+        android:text="@string/empty_stat_designholder"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/stats_ratings_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/stats_ratings_rank_label"
+        android:layout_alignStart="@+id/stats_ratings_rank_label"
+        android:layout_below="@+id/stats_total_events_all_time"
+        android:layout_marginTop="27dp"
+        android:padding="10dp"
+        android:text="@string/empty_stat_designholder"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/stats_ratings_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/stats_total_active_events"
+        android:layout_alignStart="@+id/stats_total_active_events"
+        android:layout_alignTop="@+id/stats_ratings_rank"
+        android:padding="10dp"
+        android:text="@string/empty_stat_designholder"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/stats_efficiency_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/stats_ratings_rank"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:text="@string/empty_stat_designholder"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/stats_efficiency_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/stats_ratings_value"
+        android:layout_alignStart="@+id/stats_ratings_value"
+        android:layout_alignTop="@+id/stats_efficiency_rank"
+        android:padding="10dp"
+        android:text="@string/empty_stat_designholder"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/stats_total_events_all_time_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/stats_total_active_events_label"
+        android:padding="10dp"
+        android:text="@string/stats_total_events_all_time_label"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/stats_total_active_events_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stats_highest_rank"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/stats_highest_rank"
+        android:layout_toRightOf="@+id/stats_highest_rank"
+        android:padding="10dp"
+        android:text="@string/stats_total_active_events_label"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/stats_ratings_rank_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/stats_ratings_value"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        android:text="@string/stats_ratings_rank_label"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/ratings_value_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/stats_ratings_value"
+        android:layout_alignStart="@+id/stats_ratings_value"
+        android:layout_alignTop="@+id/stats_ratings_rank_label"
+        android:padding="10dp"
+        android:text="@string/stats_ratings_value_label"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/efficiency_rank_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/stats_efficiency_value"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        android:text="@string/stats_efficiency_rank_label"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/efficiency_value_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/stats_efficiency_value"
+        android:layout_alignStart="@+id/stats_efficiency_value"
+        android:layout_alignTop="@+id/efficiency_rank_label"
+        android:padding="10dp"
+        android:text="@string/stats_efficiency_value_label"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/stats_highest_rank_date_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/stats_highest_rank"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/stats_highest_rank"
+        android:layout_toRightOf="@+id/stats_highest_rank"
+        android:padding="10dp"
+        android:text="@string/stats_as_of"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/stats_highest_rank_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/stats_rank_last_year_label"
+        android:padding="10dp"
+        android:text="@string/stats_highest_rank_label"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/stats_rank_last_year_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/stats_last_month_label"
+        android:padding="10dp"
+        android:text="@string/stats_rank_last_year_label"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/stats_last_month_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/stats_current_rank"
+        android:padding="10dp"
+        android:text="@string/stats_last_month_label"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/stats_current_rank_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:text="@string/stats_current_rank_label"
+
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <ListView
+        android:id="@+id/championshipSeries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/stats_championship_series_label"/>
+
+    <TextView
+        android:id="@+id/stats_current_wppr_value_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:text="@string/stats_current_wppr_value_label"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/stats_current_wppr_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/stats_current_wppr_value_label"
+        android:layout_alignRight="@+id/stats_current_wppr_value_label"
+        android:layout_below="@+id/stats_current_wppr_value_label"
+        android:text="@string/empty_stat_designholder"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/stats_championship_series_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/stats_efficiency_rank"
+        android:text="@string/championship_series_label"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+</RelativeLayout>

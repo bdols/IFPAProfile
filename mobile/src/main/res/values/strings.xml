@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2015, Brian Dols <brian.dols@gmail.com>
+  ~
+  ~ Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+  -->
+
+<resources>
+    <string name="app_name">Access IFPA</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_label">Access IFPA</string>
+    <string name="search_hint">Last Name</string>
+    <string name="search_menu_title">Search</string>
+    <string name="calendar_menu_title">Calendar</string>
+    <string name="player_name_designholder" translatable="false">Player Name</string>
+    <string name="player_location_designholder" translatable="false">Location</string>
+    <string name="player_country_designholder" translatable="false">Country</string>
+    <string name="player_initials_INI_designholder" translatable="false">INI</string>
+    <string name="player_registered_designholder">Registered?</string>
+    <string name="player_rank_designholder">Rank</string>
+    <string name="player_current_rank_designholder" translatable="false">184730</string>
+    <string name="calendar_to_label">to</string>
+    <string name="tournament_name_designholder" translatable="false">Tournament Name</string>
+    <string name="tournament_address1_designholder" translatable="false">Address 1</string>
+    <string name="tournament_address2_designholder" translatable="false">Address 2</string>
+    <string name="tournament_city_designholder" translatable="false">City</string>
+    <string name="tournament_state_designholder" translatable="false">State</string>
+    <string name="tournament_zipcode_designholder" translatable="false">Zip</string>
+    <string name="tournament_details_designholder" translatable="false">Details</string>
+    <string name="tournament_start_date_designholder" translatable="false">Start Date</string>
+    <string name="tournament_end_date_designholder" translatable="false">End Date</string>
+    <string name="empty_stat_designholder" translatable="false">----</string>
+    <string name="empty_date_designholder" translatable="false">--/--/--</string>
+    <string name="stats_total_events_all_time_label">Total Events All Time</string>
+    <string name="stats_total_active_events_label">Total Active Events</string>
+    <string name="stats_ratings_rank_label">Ratings Rank</string>
+    <string name="stats_ratings_value_label">Ratings Value</string>
+    <string name="stats_efficiency_rank_label">Efficiency Rank</string>
+    <string name="stats_efficiency_value_label">Efficiency Value</string>
+    <string name="stats_as_of">as of</string>
+    <string name="stats_highest_rank_label">Highest Rank</string>
+    <string name="stats_rank_last_year_label">Last Year\'s Rank</string>
+    <string name="stats_last_month_label">Last Month\'s Rank</string>
+    <string name="stats_current_rank_label">Current Rank</string>
+    <string name="stats_current_wppr_value_label">WPPR Value</string>
+    <string name="stats_pager_title">Statistics</string>
+    <string name="history_pager_title">Rankings History</string>
+    <string name="championship_series_label">Championship Series</string>
+    <string name="championship_rank_label">"Rank: "</string>
+    <string name="no_eligible_events">No eligible events recorded for this year.</string>
+    <string name="show_events_setting">Only display events</string>
+    <string name="events_key" translatable="false">distance_preference</string>
+    <string name="units_from_you">"kilometers from you"</string>
+    <string name="events_calendar_category">Events Calendar</string>
+    <string name="loading_calendar_search_text">Loading IFPA pinball events in your area…</string>
+    <string name="empty_calendar_search_text" translatable="false">Once pinball events are scheduled with IFPA in your area, they will be shown here.\n\nYou can also try expanding the search area in the settings.\n\nTouch the IFPA logo to visit www.ifpapinball.com for more information about competitive pinball.</string>
+    <string name="empty_tournament_results" translatable="false">Unable to find active tournament results for this player.</string>
+    <string name="results_pager_title">Tournament Results</string>
+    <string name="loading_tournament_results">Loading tournament results for player…</string>
+    <string name="tournament_points_label">Points</string>
+    <string name="tournament_event_name_label" translatable="false">Event Name</string>
+    <string name="tournament_original_points_label">Original Award</string>
+    <string name="tournament_active">Active</string>
+    <string name="tournament_inactive">Inactive</string>
+    <string name="searching_players">Searching for players</string>
+    <string name="server_error">Server error</string>
+    <string name="no_location" translatable="false">Unable to determine your location. Showing live sample tournaments instead.</string>
+    <string name="filtered_to_zero" translatable="false">There are no recorded events for this player that fit the criteria that you have chosen</string>
+    <string name="sort_by_most_recent">By Most Recent</string>
+    <string name="sort_by_active_recent">By Active &amp; Recent</string>
+    <string name="sort_by_historical_order">In Historical Order</string>
+    <string name="sort_by_active_points">By Active &amp; Points</string>
+    <string name="sort_by_current_points">By Current Points</string>
+    <string name="sort_by_original_points">By Original Points</string>
+    <string name="sort_by_alphabetical">By Alphabetical</string>
+    <string name="manual_override">Enter your city manually</string>
+    <string name="last_location_request">Last Location Request</string>
+    <string name="override_location_request">Override Location Request</string>
+    <string name="find_with_location_services">Find your location with your device\'s GPS or network</string>
+    <string name="city_hint">City</string>
+
+</resources>
